@@ -242,30 +242,34 @@ footer
 
    .container{
      flex-direction: column;
-     margin-left: 10px;
-     margin-right: 10px;
+   
    }
 }
 @media (max-width: 425px)
 {
+  .container{
+    flex-direction: column;
+ 
+  }
+
   .box-1
   {
-    width: 400px;
+    width: 390px;
   }
   .padding
 {
-  padding: 50px 20px 10px 20px;
+  padding: 50px 10px 10px 10px;
 }
 
 .button-percent
 {
-  width: 85px;
+  width: 80px;
   height: 50px;
   font-size: 20px;
 }
 .input-text-1
 {
-  width: 85px;
+  width:80px;
   font-size: 1rem;
 }
 .padding
@@ -293,7 +297,7 @@ ul h4
 .bg-dollar-sign
 {
  
-  width: 40px;
+  width: 35px;
   height: 40px;
 }
 .input-text 
@@ -308,7 +312,7 @@ ul h4
 .input-readonly
 {
   font-size: 2rem;
-  width: 150px;
+  width: 140px;
 }
 
 .inner-box
@@ -321,5 +325,11 @@ ul h4
 
   height: 30px;
   font-size: 1rem;
+}
+.container-tip
+{
+
+  grid-gap: 10px;
+  
 }
 }
